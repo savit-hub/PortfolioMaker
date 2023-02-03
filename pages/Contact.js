@@ -4,14 +4,14 @@ import React from "react";
 function Contact() {
   return (
     <Layout>
-      <div className="col-span-6">
+      <div className="col-span-6 shadow-md rounded-lg w-1/2 m-auto my-8">
         <div className="text-center">
           <img className="mx-auto w-48" src="/assets/logo.jpg" alt="logo" />
           <h1 className="text-xl center font-semibold mt-1 mb-12 pb-1">
             We are PortFolioMakers
           </h1>
         </div>
-        <div className="h-screen  items-center  w-full center block p-6 rounded-lg  bg-white">
+        <div className="items-center  w-full center block p-6 rounded-lg  bg-white">
           <form className="w-full">
             <p className="mb-4 font-bold">Please Write A feedback for us</p>
             <div className="form-group mb-6">

@@ -69,7 +69,7 @@ function About() {
                 />
                 <img
                   className="md:hidden block"
-                  src="/assets/about2.jpg"
+                  src="/assets/about3.jpg"
                   alt="Olivia featured Image"
                 />
                 <p className="font-medium text-xl leading-5 text-gray-800 dark:text-white mt-4">

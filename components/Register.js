@@ -1,6 +1,6 @@
 import Layout from "@/components/Layout";
 import { MyContext } from "@/context";
-import { auth } from "@/firebase/app";
+import { auth } from "@/config/app";
 import React, { useContext, useState } from "react";
 const newUSerinitialdata = {
   name: "",

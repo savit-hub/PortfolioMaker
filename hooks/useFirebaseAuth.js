@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import app, { auth, googleProvider } from "@/firebase/app";
+import app, { auth, googleProvider } from "@/config/app";
 
 const formatAuthUser = (user) => ({
   uid: user.uid,

@@ -10,13 +10,18 @@ function FormDecider() {
   const { CurrentActivePage } = useContext(MyContext);
 
   return (
-    <div className="grid grid-cols-12">
-      <div className="col-span-6">
-        <img className="h-screen w-screen" src="/assets/mainimage.jpg" />
+    <div className="grid grid-cols-12 h-[calc(100vh_-_100px)]">
+      <div className="col-span-6 overflow-hidden">
+        <img
+          className="object-cover object-center h-full w-full"
+          src="/assets/mainimage.jpg"
+        />
       </div>
-      {CurrentActivePage === TotalPages[0] && <Login />}
-      {CurrentActivePage === TotalPages[1] && <Register />}
-      {CurrentActivePage === TotalPages[2] && <Changepassword />}
+      <div className="col-span-6 w-full overflow-y-auto">
+        {CurrentActivePage === TotalPages[0] && <Login />}
+        {CurrentActivePage === TotalPages[1] && <Register />}
+        {CurrentActivePage === TotalPages[2] && <Changepassword />}
+      </div>
     </div>
   );
 }
