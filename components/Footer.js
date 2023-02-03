@@ -9,7 +9,7 @@ function Footer() {
       <div className="sm:flex sm:items-center sm:justify-between">
         <Link href="/" className="flex items-center mb-4 sm:mb-0">
           <img
-            src="/assets/logo.jpg"
+            src="/images/logo.jpg"
             className="h-8 mr-3"
             alt="Flowbite Logo"
           />

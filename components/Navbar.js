@@ -10,7 +10,7 @@ function Navbar() {
       <div className="container flex flex-wrap items-center justify-between mx-auto">
         <Link href="/" className="flex items-center">
           <img
-            src="/assets/logo.jpg"
+            src="/images/logo.jpg"
             className="h-6 mr-3 sm:h-9"
             alt="Portfolio Logo"
           />

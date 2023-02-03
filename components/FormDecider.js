@@ -14,7 +14,7 @@ function FormDecider() {
       <div className="col-span-6 overflow-hidden">
         <img
           className="object-cover object-center h-full w-full"
-          src="/assets/mainimage.jpg"
+          src="/images/mainimage.jpg"
         />
       </div>
       <div className="col-span-6 w-full overflow-y-auto">

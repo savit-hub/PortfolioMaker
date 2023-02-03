@@ -6,7 +6,7 @@ function Contact() {
     <Layout>
       <div className="col-span-6 shadow-md rounded-lg w-1/2 m-auto my-8">
         <div className="text-center">
-          <img className="mx-auto w-48" src="/assets/logo.jpg" alt="logo" />
+          <img className="mx-auto w-48" src="/images/logo.jpg" alt="logo" />
           <h1 className="text-xl center font-semibold mt-1 mb-12 pb-1">
             We are PortFolioMakers
           </h1>

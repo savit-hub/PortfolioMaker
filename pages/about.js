@@ -23,7 +23,7 @@ function About() {
           <div className="w-full lg:w-8/12">
             <img
               className="w-full h-full"
-              src="/assets/about1.jpg"
+              src="/images/about1.jpg"
               alt="A group of People"
             />
           </div>
@@ -49,12 +49,12 @@ function About() {
               <div className="p-4 pb-6 flex justify-center flex-col items-center">
                 <img
                   className="md:block hidden"
-                  src="/assets/about2.jpg"
+                  src="/images/about2.jpg"
                   alt="Alexa featured Image"
                 />
                 <img
                   className="md:hidden block"
-                  src="/assets/about2.jpg"
+                  src="/images/about2.jpg"
                   alt="Alexa featured Image"
                 />
                 <p className="font-medium text-xl leading-5 text-gray-800 dark:text-white mt-4">
@@ -64,12 +64,12 @@ function About() {
               <div className="p-4 pb-6 flex justify-center flex-col items-center">
                 <img
                   className="md:block hidden"
-                  src="/assets/about2.jpg"
+                  src="/images/about2.jpg"
                   alt="Olivia featured Image"
                 />
                 <img
                   className="md:hidden block"
-                  src="/assets/about3.jpg"
+                  src="/images/about3.jpg"
                   alt="Olivia featured Image"
                 />
                 <p className="font-medium text-xl leading-5 text-gray-800 dark:text-white mt-4">
@@ -79,12 +79,12 @@ function About() {
               <div className="p-4 pb-6 flex justify-center flex-col items-center">
                 <img
                   className="md:block hidden"
-                  src="/assets/about2.jpg"
+                  src="/images/about2.jpg"
                   alt="Liam featued Image"
                 />
                 <img
                   className="md:hidden block"
-                  src="/assets/about2.jpg"
+                  src="/images/about2.jpg"
                   alt="Liam featued Image"
                 />
                 <p className="font-medium text-xl leading-5 text-gray-800 dark:text-white mt-4">
@@ -94,12 +94,12 @@ function About() {
               <div className="p-4 pb-6 flex justify-center flex-col items-center">
                 <img
                   className="md:block hidden"
-                  src="/assets/about2.jpg"
+                  src="/images/about2.jpg"
                   alt="Elijah featured image"
                 />
                 <img
                   className="md:hidden block"
-                  src="/assets/about2.jpg"
+                  src="/images/about2.jpg"
                   alt="Elijah featured image"
                 />
                 <p className="font-medium text-xl leading-5 text-gray-800 dark:text-white mt-4">
