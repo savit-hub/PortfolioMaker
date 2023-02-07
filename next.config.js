@@ -4,7 +4,7 @@ const nextConfig = {
   basePath: "/PortfolioMaker",
   images: {
     loader: "akamai",
-    path: "/",
+    path: "/PortfolioMaker",
   },
 };
 
